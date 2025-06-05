@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+.firstdiv:hover {
+   color: #3a77ff;
+   cursor: pointer;
+}
+
+.space {
+   padding: 10px;
+   height: 48px;
+   
+}
+
+.loginbtn{
+   height: 36px;
+   width: 65px;
+   font-size: large;
+   font-weight: bold;
+  
+   border-bottom: solid 2px black;
+}
+.sellbtn {
+   height: 44px;
+   width: 100px;
+   display: flex;
+   justify-content: center;
+   font-weight: bolder;
+   /* border-top: solid 6px #23e5db;
+   border-right: solid 6px #3a77ff;
+   border-left: solid 6px #ffce32; */
+   border-image: linear-gradient(to top right, #3a77ff 10%,#23e5db  80%, #ffce32 10%) 1;
+   border-style: solid;
+   border-width: 6px;
+   border-radius: 15px;
+   /* border: solid 2px black; */
+}
+
+.searchinput:focus{
+    border: #23e5db solid 1px;
+}
+
+.ant-modal.mymodal{
+   /* background-color: white !important; */
+   height: 500px !important;
+   width:500px !important;
+}
+
+.mainForm{
+   border: 2px solid #a3b4b6;
+   width: 65%;
+   border-radius: 8px;
+   margin-left: 40px;
+   margin-top: 30px;
+   
+}
+/* .uploadinput:active{
+   border-color: #23e5db ;
+} */
+/* .formcontrol{ */
+   /* border-color: rgb(11, 87, 208); */
+   /* outline-color: #23e5db; */
+   
+/* } */
+
+/* .Textfield:focus{
+   outline-color: #23e5db;
+   border-color: #23e5db ;
+} */
+/* input[type=file]::before {
+    content: "Attach Your CV: ";
+    
+} */
